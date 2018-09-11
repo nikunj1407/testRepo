@@ -1,0 +1,10 @@
+ Volume in drive D has no label.
+ Volume Serial Number is D873-0256
+
+ Directory of D:\MyProject
+
+09/11/2018  12:02 PM    <DIR>          .
+09/11/2018  12:02 PM    <DIR>          ..
+09/11/2018  12:02 PM                 0 test.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  10,685,865,984 bytes free
