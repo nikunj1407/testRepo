@@ -1,0 +1,47 @@
+What is your day to day activity? have you worked on windows servers?
+
+How to host Site on IIS?
+
+What is application pool?
+
+How to generate SSL certificate? How to bind SSL on site?
+https://www.digicert.com/csr-ssl-installation/iis-8-and-8.5.htm
+
+What port it is?
+HTTP - 80
+HTTPS - 443
+MSSQL - 1433
+FTP - 21
+DNS - 53
+
+What is difference between authentication and authorization
+http://www.differencebetween.net/technology/difference-between-authentication-and-authorization/
+
+Have you worked on DB server? which?
+
+How to create DB on MSSQL server?
+
+What is difference between Windows authentication and SQL Server Authentication?
+
+https://www.virtual-dba.com/differences-windows-sql-server-authentication/  
+
+Have you worked on AWS cloud?
+
+What is security group?
+Security group is a kind of firewall, where we allow IP to access particular port from internet or interanet. For Eg. If user want RDP access on server then user has to add his public IP on security group for RDP port.
+ 
+What is difference between AMI and volume snapshot?
+AMI is a machine image, if we restore AMI, it will restore whole server/ machine.
+volume snapshot is an image of disk volume. To restore volume snapshot, you have to convert image to disk and attach that disk to server.
+
+What is Elastic IP and Public IP?
+Elastic IP: You can allocate elastic IP to AWS account from console. You have to attach Elastic IP to instance. When you stop and start your EC2 instance/ server from AWS console, the elastic IP will disassociate from server and then you can associate it back when server again come after start. so Elastic IP will not go away. 
+Public IP : When any EC2 instance/ server is laucnhed by default public IP got assgined to server. The public IP will get changed when you stop and start the instance.
+
+
+If the server is having high CPU utilization then how you will troublesoot?
+- Answer will be vary depending upon candidate, this is to judge a candidate how his approach towards issue. 
+Some points are, if CPU is high, what process is using, for how long, if we can terminate or not, what will happen if we terminate forcefully.
+
+
+ 
